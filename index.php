@@ -1,20 +1,16 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>CRUD</title>
+    <title>Gerenciamento de Alunos</title>
+    <link rel="stylesheet" href="css/estilo.css">
 </head>
 <body>
-<?php
-
-echo 'Olá, mundo';
-?>
-
-<div class="button-container">
-    <button onclick="window.location.href='produto-cadastrar.php';">Adicionar Produto</button>
-    <button onclick="window.location.href='produto-listar.php';">Listar Produtos</button>
-</div>
-
+    <h1>Bem-vindo ao Sistema de Gerenciamento de Alunos</h1>
+    <ul>
+        <li><a href="adicionar_aluno.php">Adicionar Aluno</a></li>
+        <li><a href="adicionar_disciplina.php">Adicionar Disciplina</a></li>
+        <li><a href="registrar_avaliacao.php">Registrar Avaliação</a></li>
+    </ul>
 </body>
 </html>
